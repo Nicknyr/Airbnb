@@ -1,0 +1,41 @@
+@media only screen and (min-width: 320px) {
+  .header {
+    height: 10em;
+    width: 100%; }
+    .header .search-bar input {
+      width: 70%;
+      float: right; }
+  .nav {
+    display: none; } }
+
+.footer {
+  background-color: blue;
+  height: 10em;
+  width: 100%; }
+
+h1, h2, h3 {
+  color: #484848; }
+
+a {
+  color: #0f8b8f; }
+
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
+.container {
+  width: 90%;
+  margin: auto;
+  background-color: lightgrey;
+  height: 50em; }
+
+.world-homes-ul {
+  padding-left: 0; }
+  .world-homes-ul li {
+    width: 50%;
+    height: auto;
+    background-color: red;
+    display: inline-block;
+    margin-top: 1em; }

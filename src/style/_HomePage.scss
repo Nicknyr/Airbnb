@@ -1,0 +1,19 @@
+
+.container {
+  width: 90%;
+  margin: auto;
+  background-color: lightgrey;
+  height: 50em;
+}
+
+.world-homes-ul {
+  padding-left: 0;
+
+  li {
+    width: 50%;
+    height: auto;
+    background-color: red;
+    display: inline-block;
+    margin-top: 1em;
+  }
+}
