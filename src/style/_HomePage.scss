@@ -2,18 +2,98 @@
 .container {
   width: 90%;
   margin: auto;
-  background-color: lightgrey;
-  height: 50em;
+  height: auto;
 }
 
 .world-homes-ul {
   padding-left: 0;
+  height: auto;
+
+  .image-wrapper {
+    height: 100px;
+    width: 80%;
+    margin: auto;
+
+    img {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .text-wrapper {
+    //background-color: yellow;
+    padding-top: 8px;
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+
+    span {
+      font-size: 12px;
+    }
+  }
 
   li {
     width: 50%;
     height: auto;
-    background-color: red;
+    padding-top: 10px;
     display: inline-block;
-    margin-top: 1em;
+    margin: auto;
+    text-align: center;
+
+    p {
+      font-size: 15px;
+    }
+
+    span {
+      font-size: 12px;
+    }
+  }
+
+}
+
+.airbnb-plus {
+  img {
+    width: 100%;
+  }
+}
+
+
+.explore {
+  ul {
+    margin: 0;
+    padding-left: 0;
+
+    li {
+      list-style-type: none;
+      display: inline;
+    }
+  }
+
+
+  .small-cards {
+    width: 40%;
+    display: inline-block;
+    border: 1px solid #D3D3D3;
+    margin-right: .5em;
+    //margin-top: 1em;
+    border-radius: 5px;
+    box-shadow: .5px .5px .5px .5px rgba(0, 0, 0, 0.2);
+
+    img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    p {
+      font-weight: bold;
+      color: #484848;
+      font-size: 12px;
+      padding-left: .5em;
+    }
   }
 }

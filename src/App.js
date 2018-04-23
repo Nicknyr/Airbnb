@@ -13,8 +13,7 @@ class App extends Component {
   render() {
     return (
       <div className="app-container">
-        <Header />
-        <Button />
+        
         <HomePage />
         <Footer />
       </div>

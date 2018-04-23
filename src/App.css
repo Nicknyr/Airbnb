@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 @media only screen and (min-width: 320px) {
   .header {
     height: 10em;
@@ -11,10 +12,14 @@
 .footer {
   background-color: blue;
   height: 10em;
-  width: 100%; }
+  width: 100%;
+  margin-top: 100em; }
 
 h1, h2, h3 {
-  color: #484848; }
+  color: #484848;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: .2em; }
 
 a {
   color: #0f8b8f; }
@@ -28,14 +33,64 @@ a {
 .container {
   width: 90%;
   margin: auto;
-  background-color: lightgrey;
-  height: 50em; }
+  height: auto; }
 
 .world-homes-ul {
-  padding-left: 0; }
+  padding-left: 0;
+  height: auto; }
+  .world-homes-ul .image-wrapper {
+    height: 100px;
+    width: 80%;
+    margin: auto; }
+    .world-homes-ul .image-wrapper img {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      height: 100%;
+      width: 100%; }
+  .world-homes-ul .text-wrapper {
+    padding-top: 8px;
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto; }
+    .world-homes-ul .text-wrapper span {
+      font-size: 12px; }
   .world-homes-ul li {
     width: 50%;
     height: auto;
-    background-color: red;
+    padding-top: 10px;
     display: inline-block;
-    margin-top: 1em; }
+    margin: auto;
+    text-align: center; }
+    .world-homes-ul li p {
+      font-size: 15px; }
+    .world-homes-ul li span {
+      font-size: 12px; }
+
+.airbnb-plus img {
+  width: 100%; }
+
+.explore ul {
+  margin: 0;
+  padding-left: 0; }
+  .explore ul li {
+    list-style-type: none;
+    display: inline; }
+
+.explore .small-cards {
+  width: 40%;
+  display: inline-block;
+  border: 1px solid #D3D3D3;
+  margin-right: .5em;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.2); }
+  .explore .small-cards img {
+    width: 100%;
+    border-radius: 5px; }
+  .explore .small-cards p {
+    font-weight: bold;
+    color: #484848;
+    font-size: 12px;
+    padding-left: .5em; }
