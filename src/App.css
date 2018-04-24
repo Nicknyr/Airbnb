@@ -94,3 +94,72 @@ a {
     color: #484848;
     font-size: 12px;
     padding-left: .5em; }
+
+@keyframes fader {
+  0% {
+    background: url("./components/layout/images/jumbo1.jpg");
+    background-size: cover; }
+  16.67% {
+    background: url("./components/layout/images/jumbo2.jpg");
+    background-size: cover; }
+  33.34% {
+    background: url("./components/layout/images/jumbo3.jpg");
+    background-size: cover; }
+  50.01% {
+    background: url("./components/layout/images/jumbo4.jpg");
+    background-size: cover; }
+  66.68% {
+    background: url("./components/layout/images/jumbo5.jpg");
+    background-size: cover; }
+  83.35% {
+    background: url("./components/layout/images/jumbo1.jpg");
+    background-size: cover; }
+  100% {
+    background: url("./components/layout/images/jumbo2.jpg");
+    background-size: cover; } }
+
+.wrapper {
+  max-width: 100%;
+  margin-top: 5em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5em; }
+
+.gallery {
+  max-width: 100%;
+  margin: 0 auto;
+  animation: fader 30s linear infinite;
+  height: 500px; }
+
+.overlay-section {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10em; }
+  .overlay-section h1 {
+    color: white;
+    width: 80%;
+    font-size: 2.5em; }
+  .overlay-section .searchbar {
+    width: 80%;
+    height: 3.5em;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: #484848;
+    font-size: 1.2em; }
+  .overlay-section .search-button {
+    height: 3em;
+    position: relative;
+    left: -100px;
+    background-color: #ff5a5f;
+    color: white;
+    font-weight: 400;
+    border: none;
+    width: 5em;
+    border-radius: 5px;
+    font-size: 1.1em; }
+  .overlay-section .magnifying-glass {
+    left: 40px;
+    position: relative;
+    font-size: 1.8em; }
