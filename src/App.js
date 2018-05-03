@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <div className="app-container">
-        <Jumbotron />
+        <Header />
         <HomePage />
         <Footer />
       </div>

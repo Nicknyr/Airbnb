@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Autosuggest from 'react-autosuggest';
+import {Icon} from 'react-fa';
 
 // Imagine you have a list of languages that you'd like to autosuggest.
 const languages = [
@@ -77,13 +78,15 @@ class SearchBar extends Component {
 
     // Autosuggest will pass through all these props to the input.
     const inputProps = {
-      placeholder: 'Type a programming language',
+      placeholder: 'Try "Osaka"',
       value,
       onChange: this.onChange
     };
 
     // Finally, render it!
     return (
+      <div>
+      <Icon name="search" />
       <Autosuggest
         suggestions={suggestions}
         onSuggestionsFetchRequested={this.onSuggestionsFetchRequested}
@@ -92,6 +95,7 @@ class SearchBar extends Component {
         renderSuggestion={renderSuggestion}
         inputProps={inputProps}
       />
+      </div>
     );
   }
 }

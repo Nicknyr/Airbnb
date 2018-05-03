@@ -1,13 +1,51 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 @media only screen and (min-width: 320px) {
   .header {
-    height: 10em;
+    height: auto;
     width: 100%; }
     .header .search-bar input {
       width: 70%;
       float: right; }
   .nav {
-    display: none; } }
+    display: none; }
+  .logo-section {
+    display: inline-block;
+    z-index: 1;
+    vertical-align: middle;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-bottom: .5em; }
+  .fa-search {
+    position: absolute;
+    color: lightgrey;
+    text-align: center;
+    display: inline-block; }
+  .search-bar {
+    width: 85%;
+    vertical-align: middle;
+    display: inline-block;
+    padding-top: 1em;
+    padding-bottom: .5em;
+    z-index: 2; }
+    .search-bar .search-button {
+      background-color: red;
+      width: 100%;
+      border: none;
+      height: 3em; }
+  .header .search-bar input {
+    width: 90%;
+    height: 3em;
+    background-color: white;
+    border: 1px solid #E4E4E4;
+    box-shadow: 1px 1px 5px #E4E4E4;
+    border-radius: 5px;
+    color: black;
+    display: inline-block; }
+  hr {
+    border: none;
+    height: 1px;
+    background-color: #E4E4E4;
+    margin: 0; } }
 
 .footer {
   background-color: white;

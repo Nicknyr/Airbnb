@@ -22,13 +22,18 @@ class Header extends Component {
           <li>Log in</li>
         </ul>
         <div className="logo-section">
-          <img src=".../public/small_logo.png" />
+          <img src={require('./images/small_logo.png')} alt="logo" height="35" width="35" />
           <Icon name="angle-down" />
         </div>
+
         <div className="search-bar">
-          <Icon name="search" />
+        <button className="search-button">
           <SearchBar />
+        </button>
         </div>
+
+
+        <hr />
       </div>
     );
   }
